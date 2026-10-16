@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treetone Music Services | Instrumental Tuition & Performance Prep</title>
+    
+    <!-- Google Fonts & Tailwind CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        abrsmNavy: '#0f2b48',
+                        abrsmBlue: '#005596',
+                        abrsmGold: '#c5a059',
+                        abrsmLightBg: '#f4f6f8',
+                        abrsmText: '#222222'
+                    },
+                    fontFamily: {
+                        serif: ['Merriweather', 'Georgia', 'serif'],
+                        sans: ['Open Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-abrsmLightBg text-abrsmText font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Top Utility Bar -->
+    <div class="bg-abrsmNavy text-white text-xs py-2 px-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <span>Treetone Music Services &bull; Instrumental Excellence & Performance Prep</span>
+            <div class="space-x-4 hidden md:block">
+                <a href="#tuition" class="hover:underline opacity-90">Programs & Rates</a>
+                <a href="#exams" class="hover:underline opacity-90">Exam Preparation</a>
+                <a href="#contact" class="hover:underline opacity-90">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navigation Bar with Logo -->
+    <header class="bg-white border-b-4 border-abrsmGold shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo.png" alt="Treetone Music Services Logo" class="h-12 w-auto object-contain">
+                <div>
+                    <h1 class="font-serif text-xl md:text-2xl font-bold text-abrsmNavy tracking-tight leading-tight">Treetone Music Services</h1>
+                    <p class="text-xs text-gray-500 font-medium">Instrumental & Performing Arts Tuition</p>
+                </div>
+            </div>
+            <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20would%20like%20to%20inquire%20about%20tuition%20sessions." 
+               target="_blank" 
+               class="bg-abrsmBlue hover:bg-abrsmNavy text-white px-5 py-2.5 rounded font-semibold text-sm transition-all shadow-sm">
+               Inquire / Enrol
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero / Banner Section -->
+    <section class="bg-gradient-to-r from-abrsmNavy to-slate-800 text-white py-14 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="md:w-2/3 space-y-4">
+                <span class="inline-block bg-abrsmGold/20 text-abrsmGold text-xs font-bold uppercase tracking-widest px-3 py-1 rounded border border-abrsmGold/30">
+                    High Standards of Music Education
+                </span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold leading-tight">
+                    Instrumental & Performing Arts Tuition
+                </h2>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed">
+                    Dreaming of mastering an instrument? We provide highly focused, private instrument lessons that cut out distractions and accelerate your learning curve. Whether you're a complete beginner or seeking advanced skill refinement—we get you playing sooner.
+                </p>
+            </div>
+            <div class="md:w-1/3 bg-white text-abrsmText p-6 rounded-lg shadow-lg border-t-4 border-abrsmBlue w-full">
+                <img src="Group.jpg" alt="Treetone Music Group Lesson" class="w-full h-40 object-cover rounded mb-4">
+                <h3 class="font-serif font-bold text-lg text-abrsmNavy mb-1">Book One-on-One Tuition</h3>
+                <p class="text-xs text-gray-600 mb-4">Inquire about our private lesson availability and flexible scheduling today.</p>
+                <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20would%20like%20to%20book%20a%20tuition%20consultation." 
+                   target="_blank" 
+                   class="block text-center w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 rounded font-bold text-sm transition">
+                   💬 Inquire on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Notice: Transport Fee -->
+    <div class="bg-amber-50 border-y border-amber-200 py-3 px-4">
+        <div class="max-w-6xl mx-auto flex items-center justify-center space-x-2 text-xs md:text-sm text-amber-900 font-medium">
+            <span>📌</span>
+            <span><strong>Note on Transport:</strong> Transport is additional and calculated separately from the training fee depending on the student's location.</span>
+        </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-4 py-12 flex-grow w-full space-y-12" id="tuition">
+
+        <!-- Header for Disciplines -->
+        <div class="border-b-2 border-gray-200 pb-3">
+            <h2 class="font-serif text-2xl font-bold text-abrsmNavy">Tuition Programs & Fee Structure</h2>
+            <p class="text-sm text-gray-600">Structured practical learning modules tailored for individual students across all levels.</p>
+        </div>
+
+        <!-- Grid of 5 Programs -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- 1. Violin -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <img src="violin.jpg" alt="Violin Tuition" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-abrsmBlue font-bold uppercase tracking-wider">String Department</span>
+                        <h3 class="font-serif font-bold text-xl text-abrsmNavy mt-1 mb-2">Violin Tuition</h3>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Posture, bowing technique, intonation, sight-reading, and comprehensive grade exam preparation.
+                        </p>
+                        <div class="text-lg font-bold text-abrsmNavy border-t pt-3">
+                            KES 1,500 <span class="text-xs font-normal text-gray-500">/ session</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 border-t border-gray-100 flex justify-between items-center">
+                    <span class="text-xs text-gray-500 font-medium">+ Transport separate</span>
+                    <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20am%20interested%20in%20Violin%20lessons%20(KES%201500/session)." 
+                       target="_blank" class="text-abrsmBlue font-bold text-sm hover:underline">Enquire →</a>
+                </div>
+            </div>
+
+            <!-- 2. Guitar -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <img src="guitar.jpg" alt="Guitar Tuition" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-abrsmBlue font-bold uppercase tracking-wider">String Department</span>
+                        <h3 class="font-serif font-bold text-xl text-abrsmNavy mt-1 mb-2">Guitar Tuition</h3>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Acoustic & classical guitar technique, fingerstyle mastery, chord theory, and solo performance.
+                        </p>
+                        <div class="text-lg font-bold text-abrsmNavy border-t pt-3">
+                            KES 1,600 <span class="text-xs font-normal text-gray-500">/ session</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 border-t border-gray-100 flex justify-between items-center">
+                    <span class="text-xs text-gray-500 font-medium">+ Transport separate</span>
+                    <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20am%20interested%20in%20Guitar%20lessons%20(KES%201600/session)." 
+                       target="_blank" class="text-abrsmBlue font-bold text-sm hover:underline">Enquire →</a>
+                </div>
+            </div>
+
+            <!-- 3. Piano -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <img src="piano.jpg" alt="Piano Tuition" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-abrsmBlue font-bold uppercase tracking-wider">Keyboard Department</span>
+                        <h3 class="font-serif font-bold text-xl text-abrsmNavy mt-1 mb-2">Piano Tuition</h3>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Key navigation, music notation, scales, classical & modern repertoire, and finger coordination.
+                        </p>
+                        <div class="text-lg font-bold text-abrsmNavy border-t pt-3">
+                            KES 1,600 <span class="text-xs font-normal text-gray-500">/ session</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 border-t border-gray-100 flex justify-between items-center">
+                    <span class="text-xs text-gray-500 font-medium">+ Transport separate</span>
+                    <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20am%20interested%20in%20Piano%20lessons%20(KES%201600/session)." 
+                       target="_blank" class="text-abrsmBlue font-bold text-sm hover:underline">Enquire →</a>
+                </div>
+            </div>
+
+            <!-- 4. Saxophone -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <img src="sax.jpg" alt="Saxophone Tuition" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-abrsmBlue font-bold uppercase tracking-wider">Woodwind Department</span>
+                        <h3 class="font-serif font-bold text-xl text-abrsmNavy mt-1 mb-2">Saxophone Tuition</h3>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Embouche control, breath technique, tone projection, scale mastery, and practical improvisation.
+                        </p>
+                        <div class="text-lg font-bold text-abrsmNavy border-t pt-3">
+                            KES 1,600 <span class="text-xs font-normal text-gray-500">/ session</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 border-t border-gray-100 flex justify-between items-center">
+                    <span class="text-xs text-gray-500 font-medium">+ Transport separate</span>
+                    <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20am%20interested%20in%20Saxophone%20lessons%20(KES%201600/session)." 
+                       target="_blank" class="text-abrsmBlue font-bold text-sm hover:underline">Enquire →</a>
+                </div>
+            </div>
+
+            <!-- 5. Ballet -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <img src="ballet.jpg" alt="Ballet Tuition" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-abrsmBlue font-bold uppercase tracking-wider">Dance & Movement</span>
+                        <h3 class="font-serif font-bold text-xl text-abrsmNavy mt-1 mb-2">Ballet Tuition</h3>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Classical posture, grace, core alignment, flexibility, rhythm, and performance choreography.
+                        </p>
+                        <div class="text-lg font-bold text-abrsmNavy border-t pt-3">
+                            KES 2,000 <span class="text-xs font-normal text-gray-500">/ session</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 border-t border-gray-100 flex justify-between items-center">
+                    <span class="text-xs text-gray-500 font-medium">+ Transport separate</span>
+                    <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20am%20interested%20in%20Ballet%20lessons%20(KES%202000/session)." 
+                       target="_blank" class="text-abrsmBlue font-bold text-sm hover:underline">Enquire →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Examination & Assessment Focus -->
+        <section id="exams" class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
+            <div class="md:flex items-center justify-between gap-8">
+                <div class="md:w-2/3 space-y-3">
+                    <span class="text-xs font-bold text-abrsmGold uppercase tracking-wider">Assessment & Examination Support</span>
+                    <h3 class="font-serif font-bold text-2xl text-abrsmNavy">Grade Exams & Performance Preparation</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Comprehensive coaching for candidates sitting practical examination boards (e.g. ABRSM). We assist with recorded video submissions, piece selection, scale work, and mock evaluation.
+                    </p>
+                </div>
+                <div class="mt-6 md:mt-0 md:w-1/3 text-right">
+                    <a href="https://wa.me/254746754003?text=Hello%20Treetone%20Music%20Services%2C%20I%20would%20like%20assistance%20with%20music%20exam%20preparation." 
+                       target="_blank" 
+                       class="inline-block bg-abrsmNavy hover:bg-slate-800 text-white px-6 py-3 rounded text-sm font-bold shadow-sm transition">
+                       Discuss Exam Prep
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-abrsmNavy text-white border-t-4 border-abrsmGold py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center space-y-3 text-xs text-gray-400">
+            <p class="font-serif text-sm font-bold text-white">Treetone Music Services</p>
+            <p>Violin &bull; Guitar &bull; Piano &bull; Saxophone &bull; Ballet Tuition</p>
+            <p>Contact: 0746754003</p>
+            <p>&copy; 2026 Treetone Music Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+  </html>
+  
